@@ -98,7 +98,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv)
 
   // fetch Data from the server to get response from the bot
-const response = await fetch('https://ai-app-urgf.onrender.com',{
+const response = await fetch('https://ai-codex-app-0ibz.onrender.com',{
   method:'POST',
   headers: {
     'Content-Type':'application/json'
